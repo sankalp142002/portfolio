@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(68 16 77);
+            background-filter: blur(3px);
+        }
+
+        .backblur {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255, 255, 255, 0.1);
+            border: 2px solid transparent;
+            border-radius: 4px;
+            box-shadow: 10px 1px 15px rgb(255 255 255 / 10%);
+        }
+
+        .formlook {
+            position: relative;
+            left: 22%;
+            width: 50%;
+            background-color: #f8acf8;
+            padding: 18px;
+            margin: 16px;
+            border-width: 7px;
+            border-style: groove;
+            border-radius: 5px;
+            border-color: #e1c1dd;
+        }
+
+        .button {
+            border-radius: 12px;
+            color: #370049;
+
+
+        }
+
+        .button:hover {
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="backblur">FORM</h2>
+    <p class="backblur">Please fill this form to give some feedback on the current COVID-19 situation. This information
+        may help us develop COVID-19 resources and save many lives.</p>
+    <form>
+        <div class="formlook"> ENTER YOUR NAME: <br> <input type="text"><br></div>
+        <div class="formlook"> ENTER YOUR E-MAIL: <br><input type="email"><br></div>
+        <div class="formlook">ENTER YOUR GENDER: <br><input type="dro"><br></div>
+        <div class="formlook">TODAY'S DATE: <br><input type="date"><br></div>
+        <div class="formlook">POSITIVE CASES IN YOUR AREA : <br><input type="number"><br></div>
+        <div class="formlook">POSITIVE CASES IN YOUR CITY : <br><input type="number"><br></div>
+        <div class="formlook">POSITIVE CASES IN YOUR STATE : <br><input type="number"><br></div>
+        <div class="formlook">SUGGESTIONS REGARDING CURRENT SITUATION: <br><input type="text"><br></div>
+        <div class="formlook">ARE YOU COVID POSITIVE<input type="checkbox"><br></div>
+
+        <br><input class="button" type="submit">
+
+    </form>
+</body>
+
+</html>
