@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+body{
+    background-color: #0B0C10;
+}
+
+.nav{
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    background-color: #1F2833;
+}
+.header{
+    background-color: #1F2833;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.curve{
+    border-radius: 76px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+}
+figcaption{
+    font-size: 1.5em;
+}
+figcaption br{
+    margin: 4px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    color: #66FCF1;
+}
+figcaption:hover{
+    font-weight: bold;
+}
+.active{
+    color: #66FCF1;
+}
