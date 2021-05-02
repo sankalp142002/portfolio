@@ -28,14 +28,16 @@ body{
 li{
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 5px 20px;
     text-decoration: none;
 }
 figcaption{
+    padding: 4px;
     font-size: 1.5em;
 }
-figcaption br{
-    margin: 4px;
+figcaption div{
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
 }
 a{
     text-decoration: none;
