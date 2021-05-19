@@ -24,6 +24,18 @@ body{
 }
 .curve{
     border-radius: 76px;
+    animation: rotate 10s ease-in-out infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.curve:hover{
+    transform: scale(2);
 }
 li{
     list-style: none;
